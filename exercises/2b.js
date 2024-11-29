@@ -4,6 +4,7 @@
  */
 function listNames(recipes) {
   // code here
+  return recipes.map(recipe => recipe.name)
 }
 
 // array provided for debugging:
