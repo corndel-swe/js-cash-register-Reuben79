@@ -5,6 +5,10 @@
  */
 function recipeSummary(recipe) {
   // code here
+  const name = recipe.name
+  const ingredientCount = recipe.ingredients.length
+  const servings = recipe.servings
+  return `${name} has ${ingredientCount} ingredients and serves ${servings} people`
 }
 
 // We have provided two recipes for debugging:

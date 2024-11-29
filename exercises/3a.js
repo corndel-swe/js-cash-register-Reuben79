@@ -4,7 +4,16 @@
  */
 function lastRecipe(recipeBook) {
   // code here
+const recipes = recipeBook.recipes
+
+if (recipes.length === 0) {
+  return undefined
+} else {  
+const lastRecipe = recipes[recipes.length - 1]
+return lastRecipe.name 
 }
+}
+
 
 // we've provided a sample object for debugging:
 const recipeBook = {
